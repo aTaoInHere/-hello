@@ -1,3 +1,12 @@
-11111111
-22222222
-33333334
+git note:
+git reflog 查看日志
+git log 查看详细日志
+git vim hello.txt 修改文件内容 :wq 退出编辑并保存
+git cat hello.txt 查看当前文件内容
+git commit -m "first commit" hello.txt 提交本地代码库
+git status 查看当前目录文件是否提交或更新
+git branch hot_fix 创建hot_fix分支
+git branch -v 查看所有分支
+git checkout master 改变当前分支为master分支
+git reset -hard 0x0a312 文件穿梭，改变当前指针指向的文件
+git merge hot_fix 合并分支
