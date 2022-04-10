@@ -10,3 +10,5 @@ git branch -v 查看所有分支
 git checkout master 改变当前分支为master分支
 git reset -hard 0x0a312 文件穿梭，改变当前指针指向的文件
 git merge hot_fix 合并分支
+git push 别名 分支名 推送到远程仓库
+git pull 别名 分支名 推送到远程仓库
